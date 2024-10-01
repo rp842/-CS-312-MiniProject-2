@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Cocktail</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+    <h1>Random Cocktail</h1>
+    <h4> Refresh page to get a different cocktail!</h4>
+    <h2><%= cocktailName %></h2>
+    <div class="grid"> 
+        <img src="/ThumbCat.jpg"></img>
+        <img src="<%= cocktailImage %>">
+    </div>
+    
+    
+    <p><strong>Instructions: </strong> <%= howToMake %></p>
+</body>
+</html>
